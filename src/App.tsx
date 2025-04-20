@@ -11,13 +11,8 @@ import ServicesPage from "./pages/services";
 import EngineeringServices from "./pages/services/engineering";
 import ProcurementServices from "./pages/services/procurement";
 import ConstructionServices from "./pages/services/construction";
-
-// Define placeholder routes - these will be implemented in future updates
-const ProjectsPage = () => <div>Projects Page Coming Soon</div>;
-const BlogPage = () => <div>Blog Page Coming Soon</div>;
-const ContactPage = () => <div>Contact Page Coming Soon</div>;
-const PrivacyPolicy = () => <div>Privacy Policy Coming Soon</div>;
-const TermsOfService = () => <div>Terms of Service Coming Soon</div>;
+import ProjectsPage from "./pages/projects";
+import QuoteRequestPage from "./pages/quote-request";
 
 const queryClient = new QueryClient();
 
@@ -35,8 +30,7 @@ const App = () => (
           <Route path="/services/procurement" element={<ProcurementServices />} />
           <Route path="/services/construction" element={<ConstructionServices />} />
           <Route path="/projects" element={<ProjectsPage />} />
-          <Route path="/blog" element={<BlogPage />} />
-          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/quote-request" element={<QuoteRequestPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="*" element={<NotFound />} />
