@@ -8,6 +8,9 @@ import Index from "./pages/index";
 import NotFound from "./pages/NotFound";
 import AboutPage from "./pages/about";
 import ServicesPage from "./pages/services";
+import EngineeringServices from "./pages/services/engineering";
+import ProcurementServices from "./pages/services/procurement";
+import ConstructionServices from "./pages/services/construction";
 
 // Define placeholder routes - these will be implemented in future updates
 const ProjectsPage = () => <div>Projects Page Coming Soon</div>;
