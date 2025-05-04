@@ -13,6 +13,8 @@ import ProcurementServices from "./pages/services/procurement";
 import ConstructionServices from "./pages/services/construction";
 import ProjectsPage from "./pages/projects";
 import QuoteRequestPage from "./pages/quote-request";
+import PrivacyPolicy from "./pages/privacy-policy";
+import TermsOfService from "./pages/terms-of-service";
 
 const queryClient = new QueryClient();
 
